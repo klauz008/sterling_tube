@@ -108,18 +108,16 @@ a[aria-expanded="true"] {
     color: red;
 }
 
-/* ---------------------------
-    SIDEBAR STYLE ENDS HERE
------------------------------- */
+/* SIDEBAR STYLE ENDS HERE*/
 
 .wrapper #sidebar ul li a{
     text-decoration: none;
     color: #000000;
     display: block;
 }
-/* .wrapper #sidebar ul li .fas-home {
+.wrapper #sidebar ul li .fa-home {
     color: red;
-} */
+}
 
 .menu-search-box {
     padding-right: 200px;
@@ -170,9 +168,13 @@ form .btn {
     max-height: 40px;
     overflow: hidden;
 }
+.card-text-content {
+    padding: 0px 15px;
+}
 
 .card-image-content img{
-    padding-right: 8px;
+    border-radius: 15px;
+    height: 30px;
 }
 
 .card-text-content a{
