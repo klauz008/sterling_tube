@@ -72,7 +72,7 @@ div .col-md-9 .nav-item i {
     margin-right: 10px;
 }
 
-/* active properties */
+/* active */
 #sidebar.active {
     min-width: 100px;
     max-width: 100px;
