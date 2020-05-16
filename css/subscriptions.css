@@ -160,9 +160,12 @@ form .btn {
 
 .thumbnail {
     max-height: 143px;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
+/* .thumbnail img {
+    max-height: 150px;
+    max-width: 150px;
+} */
 
 .card-text-content h6 {
     max-height: 40px;
