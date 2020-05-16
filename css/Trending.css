@@ -1,0 +1,38 @@
+
+
+
+
+.trending-thumbnails {
+    width: 100%;    ;
+}
+
+.trending-icon-font-increase {
+    font-size: 3rem;
+}
+
+.trending-icon-bg {
+    background: grey;
+    border: solid grey 10px;
+    border-radius: 100px;
+}
+
+.trending-thumbnails .item-icons {
+    border-bottom: black;
+}
+
+.contain-trending {
+    width: 75%;
+}
+
+.trending-thumbnails .horizontal-thumbnail a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.thumbnail-info {
+    margin-bottom: 15px;
+}
+
+video {
+    width: 900px;
+}

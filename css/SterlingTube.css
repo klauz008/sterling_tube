@@ -36,10 +36,7 @@ div .col-md-9 .nav-item i {
     align-items: center;
 }
 
-/* ---------------------------
-    SIDEBAR STYLE STARTS HERE
-   --------------------------- */
-/* Default properties */
+    /* SIDEBAR */
 
 .wrapper {
     display: flex;
@@ -112,7 +109,7 @@ a[aria-expanded="true"] {
     color: red;
 }
 
-/* SIDEBAR STYLE ENDS HERE*/
+/* SIDEBAR */
 
 .wrapper #sidebar ul li a{
     text-decoration: none;
@@ -199,37 +196,3 @@ form .btn {
     padding-right: 15px;
 }
 
-.trending-thumbnails {
-    width: 100%;    ;
-}
-
-.trending-icon-font-increase {
-    font-size: 3rem;
-}
-
-.trending-icon-bg {
-    background: grey;
-    border: solid grey 10px;
-    border-radius: 100px;
-}
-
-.trending-thumbnails .item-icons {
-    border-bottom: black;
-}
-
-.contain-trending {
-    width: 75%;
-}
-
-.trending-thumbnails .horizontal-thumbnail a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.thumbnail-info {
-    margin-bottom: 15px;
-}
-
-video {
-    width: 900px;
-}
