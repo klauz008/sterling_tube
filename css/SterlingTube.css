@@ -23,6 +23,10 @@ body {
     color: black
 }
 
+.form-inline .form-control {
+    width: 500px;
+}
+
 div .col-md-9 .nav-item i {
     color: grey;
     font-size: 20px;
@@ -175,6 +179,7 @@ form .btn {
 .card-image-content img{
     border-radius: 15px;
     height: 30px;
+    width: 30px;
 }
 
 .card-text-content a{
