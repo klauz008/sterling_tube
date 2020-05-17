@@ -23,8 +23,15 @@ body {
     color: black
 }
 
+.btn-outline-light {
+    color: black;
+    border-color: rgb(182, 177, 177);
+    width: 75px;
+    height: 35px;
+}
 .form-inline .form-control {
     width: 500px;
+    height: 35px;
 }
 
 div .col-md-9 .nav-item i {
@@ -104,16 +111,16 @@ div .col-md-9 .nav-item i {
     margin-bottom: 5px;
 }
 
-#sidebar ul li.active>a,
+/* #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: red;
-}
+} */
 
 /* SIDEBAR */
 
 .wrapper #sidebar ul li a{
     text-decoration: none;
-    color: #000000;
+    color: black;
     display: block;
 }
 .wrapper #sidebar ul li .fa-home {
@@ -123,6 +130,7 @@ a[aria-expanded="true"] {
 .menu-search-box {
     padding-right: 200px;
     border-radius: 0;
+    
 }
 
 form .btn {

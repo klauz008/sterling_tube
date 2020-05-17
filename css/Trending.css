@@ -1,4 +1,138 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    background: rgb(249, 249, 249);
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: white !important;
+    border: none;
+    border-radius: 0;
+}
+
+.whole-body-content {
+    display: flex;
+}
+
+.btn-ppty {
+    background: transparent;
+    border: none;
+    color: black
+}
+
+.btn-outline-light {
+    color: black;
+    border-color: rgb(182, 177, 177);
+}
+.form-inline .form-control {
+    width: 500px;
+}
+
+div .col-md-9 .nav-item i {
+    color: grey;
+    font-size: 20px;
+}
+
+.col-md-4 {
+    align-items: center;
+}
+
+    /* SIDEBAR */
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 200px;
+    max-width: 200px;
+    background: white;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background: #f1f1f1;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* active */
+#sidebar.active {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.video-page.active {
+    display: none;
+}
+
+
+#sidebar.active .minibar-hide,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: red;
+}
+
+/* SIDEBAR */
+
+.wrapper #sidebar ul li a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+.wrapper #sidebar ul li .fa-home {
+    color: red;
+}
+
+.menu-search-box {
+    padding-right: 200px;
+    border-radius: 0;
+}
+
+form .btn {
+    border-radius: 0;
+    background-color: #f8f8f8
+}
 
 
 

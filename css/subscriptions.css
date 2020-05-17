@@ -112,21 +112,28 @@ a[aria-expanded="true"] {
 
 .wrapper #sidebar ul li a{
     text-decoration: none;
-    color: #000000;
+    color: black;
     display: block;
 }
-.wrapper #sidebar ul li .fa-fire {
+.wrapper #sidebar ul li .fa-tv {
     color: red;
 }
 
 .menu-search-box {
     padding-right: 200px;
     border-radius: 0;
+    height: 35px;
 }
 
 form .btn {
     border-radius: 0;
     background-color: #f8f8f8
+}
+.btn-outline-light {
+    color: black;
+    border-color: rgb(182, 177, 177);
+    width: 70px;
+    height: 35px;
 }
 
 .video-thumbnails {
@@ -162,10 +169,7 @@ form .btn {
     max-height: 143px;
     overflow: hidden;    
 }
-/* .thumbnail img {
-    max-height: 150px;
-    max-width: 150px;
-} */
+
 
 .card-text-content h6 {
     max-height: 40px;
