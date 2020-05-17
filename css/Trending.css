@@ -6,6 +6,13 @@ body {
     background: rgb(249, 249, 249);
 }
 
+.left-padding {
+    padding-left: 15px;
+}
+
+.right-padding {
+    padding-right: 15px;
+}
 .navbar {
     padding: 15px 10px;
     background: white !important;
@@ -57,24 +64,27 @@ div .col-md-9 .nav-item i {
 
 #sidebar ul li a {
     text-align: left;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
 }
-
-#sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
-    display: block;
-}
-
+   
 #sidebar ul li a:hover {
     background: #f1f1f1;
 }
 
 #sidebar ul li a i {
     margin-right: 10px;
+}
+.wrapper #sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: red;
 }
 
 /* active */

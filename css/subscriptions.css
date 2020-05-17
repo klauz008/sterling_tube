@@ -36,7 +36,7 @@ div .col-md-9 .nav-item i {
     align-items: center;
 }
 
-/* SIDEBAR STYLE STARTS HERE */
+/* SIDEBAR */
 
 .wrapper {
     display: flex;
@@ -103,14 +103,14 @@ div .col-md-9 .nav-item i {
     margin-bottom: 5px;
 }
 
-#sidebar ul li.active>a,
+/* .wrapper #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: red;
-}
+} */
 
 /* SIDEBAR*/
 
-.wrapper #sidebar ul li a{
+.wrapper #sidebar ul li a {
     text-decoration: none;
     color: black;
     display: block;
