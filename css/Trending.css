@@ -82,8 +82,11 @@ div .col-md-9 .nav-item i {
 #sidebar ul li a i {
     margin-right: 10px;
 }
-.wrapper #sidebar ul li.active>a,
+/* .wrapper #sidebar ul li.active>a,
 a[aria-expanded="true"] {
+    color: red;
+} */
+.fa-fire {
     color: red;
 }
 
@@ -116,22 +119,6 @@ a[aria-expanded="true"] {
     display: block;
     font-size: 1.8em;
     margin-bottom: 5px;
-}
-
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
-    color: red;
-}
-
-/* SIDEBAR */
-
-.wrapper #sidebar ul li a{
-    text-decoration: none;
-    color: #000000;
-    display: block;
-}
-.wrapper #sidebar ul li .fa-home {
-    color: red;
 }
 
 .menu-search-box {

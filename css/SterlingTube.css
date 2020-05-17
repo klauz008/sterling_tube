@@ -118,12 +118,12 @@ a[aria-expanded="true"] {
 
 /* SIDEBAR */
 
-.wrapper #sidebar ul li a{
+#sidebar ul li a{
     text-decoration: none;
     color: black;
     display: block;
 }
-.wrapper #sidebar ul li .fa-home {
+#sidebar ul li .fa-home {
     color: red;
 }
 

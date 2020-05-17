@@ -103,19 +103,20 @@ div .col-md-9 .nav-item i {
     margin-bottom: 5px;
 }
 
-/* .wrapper #sidebar ul li.active>a,
+/* #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: red;
 } */
 
 /* SIDEBAR*/
 
-.wrapper #sidebar ul li a {
+#sidebar ul li a {
     text-decoration: none;
     color: black;
     display: block;
 }
-.wrapper #sidebar ul li .fa-tv {
+
+.fa-tv {
     color: red;
 }
 
