@@ -165,7 +165,12 @@ form .btn {
     flex-direction: column;
     margin-left: 25px;
     border: #f1f1f1 2px;
+}
 
+.card-columns .card {
+    display: inline-block;
+    width: 100%;
+    border: none;
 }
 .card-img {
     width: 250px;
@@ -174,8 +179,11 @@ form .btn {
     overflow: hidden;
 
 }
+.card-body {
+    margin: -5px -115px; 
+}
 .card-text {
-    float: right;
+    float: left;
 }
 .card {
    /* border: 20px; */
