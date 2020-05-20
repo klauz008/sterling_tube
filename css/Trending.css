@@ -27,7 +27,7 @@ body {
 .page-layout {
     display: flex;
     flex-direction: column;
-    
+     
 }
 
 .btn-ppty {
@@ -54,11 +54,6 @@ div .col-md-9 .nav-item i {
 }
 
     /* SIDEBAR */
-
-.wrapper {
-    display: flex;
-    align-items: stretch;
-}
 
 #sidebar {
     min-width: 200px;
@@ -136,6 +131,26 @@ form .btn {
     border-radius: 0;
     background-color: #f8f8f8
 }
+.icons {
+    display: flex;
+    direction: row;
+}
+.icon-label {
+    display: flex;
+    direction: row;
+}
+.dimension1 {
+    margin-left: 50px;
+}
+.dimension2 {
+    margin-left: 108px;
+}
+.dimension3 {
+    margin-left: 111px;
+}
+.dimension4 {
+    margin-left: 112px;
+}
 .images {
     margin-top: 20px;
 }
@@ -170,37 +185,7 @@ form .btn {
 
 }
 
-/* 
-.trending-thumbnails {
-    width: 100%;    ;
-}
 
-.trending-icon-font-increase {
-    font-size: 3rem;
-}
-
-.trending-icon-bg {
-    background: grey;
-    border: solid grey 10px;
-    border-radius: 100px;
-}
-
-.trending-thumbnails .item-icons {
-    border-bottom: black;
-}
-
-.contain-trending {
-    width: 75%;
-}
-
-.trending-thumbnails .horizontal-thumbnail a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.thumbnail-info {
-    margin-bottom: 15px;
-} */
 
 video {
     width: 900px;
