@@ -1,4 +1,4 @@
-* {
+* { 
     box-sizing: border-box;
 }
 
@@ -22,6 +22,12 @@ body {
 
 .whole-body-content {
     display: flex;
+    
+}
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .btn-ppty {
@@ -130,9 +136,41 @@ form .btn {
     border-radius: 0;
     background-color: #f8f8f8
 }
+.images {
+    margin-top: 20px;
+}
+#img {
+    margin-right: 35px;
+    margin-left: 35px;
+    border-radius: 40px;
+}
+
+.card-columns {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    border: #f1f1f1 2px;
+
+}
+.card-img {
+    width: 250px;
+    height: 150px;
+    border-radius: 0px;
+    overflow: hidden;
+
+}
+.card-text {
+    float: right;
+}
+.card {
+   /* border: 20px; */
+   border-radius: 0px;
+   /* margin: 0px 20px; */
 
 
+}
 
+/* 
 .trending-thumbnails {
     width: 100%;    ;
 }
@@ -162,7 +200,7 @@ form .btn {
 
 .thumbnail-info {
     margin-bottom: 15px;
-}
+} */
 
 video {
     width: 900px;
